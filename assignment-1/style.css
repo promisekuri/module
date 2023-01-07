@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.banner .banner-right{
+    text-align: end;
+    position: absolute;
+    top: 30%;
+    margin-left: 800px;
+    width: 500px;
+}
+.banner .banner-right .head-title{
+    font-size: 65px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+.banner .banner-right .btn-contact{
+    color: white;
+    background-color: #f9004d;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.about-person{
+    display: flex;
+    margin-top: 170px;
+    margin-left: 200px;
+
+}
+.about-person img{
+    width: 500px;
+    margin-bottom: 50px;
+
+}
+.about-person .person-info{
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+.about-person .person-info h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about-person .person-info p{
+    margin-bottom: 20px;
+}
+.about-person .person-info ul li{
+    margin-bottom: 20px;
+}
+.plans h1{
+    margin-top: 80px;
+    text-align: center;
+}
+.plans .skills{
+    margin-top: 90px;
+    display: flex;
+    gap: 140px;
+    margin-left: 300px;
+}
+.plans .skills img{
+    margin-bottom: 18px;
+}
+.plans .skills p{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+.main{
+    margin-left: 200px;
+}
+.main .gradient{
+    margin-top: 180px;
+    background-image:url(./images/watch.png);
+    background-repeat: no-repeat;
+    height: 360px;
+    position: relative;
+}
+.main .gradient .gradient-title{
+position: absolute;
+font-size: larger;
+color: rgba(128, 128, 128, 0.942);
+width: 500px;
+margin-left: 40px;
+top: 20%;
+}
+.main  .gradient .gradient-title .call{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    color: orange;
+    margin-top: 15px;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    height: 500px;
+}
+.footer .address{
+    color: white;
+    width: 400px;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 100px;
+
+}
+.footer .subscribe{
+    color: white;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+.footer .address h2{
+font-weight: 700;
+margin-bottom: 20px;
+}
+.footer .address p{
+    margin-bottom: 20px;
+}
+.footer .subscribe h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .subscribe input{
+    padding: 15px;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+.footer .subscribe button{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
